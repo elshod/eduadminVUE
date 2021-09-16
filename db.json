@@ -1,0 +1,114 @@
+{
+  "teachers": [
+    {
+      "name": "Polvona Dilfuza",
+      "phone": "998991234566",
+      "email": "dilfuza@edu.uz",
+      "id": 1
+    },
+    {
+      "name": "Ergashev Ibrohim",
+      "phone": "998771112233",
+      "email": "ibrohim@gmail.com",
+      "id": 2
+    }
+  ],
+  "groups": [
+    {
+      "subject_id": 5,
+      "num": "1",
+      "teacher_id": 1,
+      "id": 1
+    },
+    {
+      "subject_id": 9,
+      "num": "2",
+      "teacher_id": 2,
+      "id": 2
+    },
+    {
+      "subject_id": 6,
+      "num": "3",
+      "teacher_id": 2,
+      "id": 3
+    },
+    {
+      "subject_id": 6,
+      "num": "2",
+      "teacher_id": 1,
+      "id": 4
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Fizika",
+      "id": 1
+    },
+    {
+      "subject": "Matematika",
+      "id": 2
+    },
+    {
+      "subject": "Chet tili",
+      "id": 5
+    },
+    {
+      "subject": "Informatika",
+      "id": 6
+    },
+    {
+      "subject": "Rus tili",
+      "id": 7
+    },
+    {
+      "subject": "Ona tili",
+      "id": 8
+    },
+    {
+      "subject": "Kimyo",
+      "id": 9
+    }
+  ],
+  "pupils": [
+    {
+      "name": "Farruh",
+      "lname": "Rahimov",
+      "phone": "998919987654",
+      "adress": "Toshkent shahar, Amir Temur ko'chasi 111",
+      "univer": "TATU",
+      "parent": "Rahimov Muzaffar",
+      "parentphone": "998991234567",
+      "id": 1
+    },
+    {
+      "name": "Jalil",
+      "lname": "Abrorov",
+      "phone": "998991234567",
+      "adress": "Tashkent sh. Shota Rustavelli 103 uy",
+      "univer": "NUU",
+      "parent": "Abrorov Hamid",
+      "parentphone": "998991234567",
+      "id": 2
+    }
+  ],
+  "lessons": [
+    {
+      "pupil_id": 1,
+      "subject_id": 6,
+      "group_id": 4,
+      "id": 2
+    },
+    {
+      "pupil_id": 2,
+      "subject_id": 5,
+      "group_id": 1,
+      "id": 3
+    },
+    {
+      "pupil_id": 2,
+      "subject_id": 6,
+      "group_id": 3,
+      "id": 4
+    }
+  ]
+}
